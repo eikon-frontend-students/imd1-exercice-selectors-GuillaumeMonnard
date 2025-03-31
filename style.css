@@ -21,7 +21,7 @@ p {
   margin: 15px;
 }
 
-p + .special {
+.special + p {
   text-transform: uppercase;
 }
 
@@ -29,7 +29,7 @@ aside .urgent ~ li {
   font-style: italic;
 }
 
-article:first-of-type p {
+article p:first-of-type {
   background-color: yellow;
 }
 
